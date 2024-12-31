@@ -47,25 +47,37 @@ button.navbutton {
 	border-style: ridge;
 	border-width: 7px;
 	color: white;
+	cursor: pointer;
 	font-family: 'Cinzel Decorative';
 	font-size: large;
 	font-weight: 700;
-    cursor: pointer;
 	height: 3vw;
 	margin: 20px;
 	width: 10vw;
 }
 
 .titlebox {
+	align-content: center;
+	align-items: center;
 	background: #0e194d;
 	border-color: white;
 	border-style: ridge;
 	border-width: 15px;
 	border-width: 20px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
 	height: 20vh;
+	justify-content: flex-end;
 	margin: 50px;
 	position: relative;
 	width: 50vw;
+}
+
+p.tempnote {
+	color: white;
+	height: fit-content;
+	width: fit-content;
 }
 
 .title {
