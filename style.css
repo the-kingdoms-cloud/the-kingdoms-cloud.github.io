@@ -3,4 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-/* write css code here */
+
+.mainpage{
+  background-image: url('images\placeholderbackground\mainpageplaceholder.jpg');
+}
